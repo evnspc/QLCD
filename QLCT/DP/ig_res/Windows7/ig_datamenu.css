@@ -1,0 +1,917 @@
+/**************************** VERTICAL (Default / No suffixes) *************************************************/
+.igdm_Windows7ControlVertical
+{
+	background-color:#F1F5FB;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border:solid 1px #AABFD6;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+/*
+ Main Control CSS class when it's active 
+*/
+.igdm_Windows7ControlVerticalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_Windows7ControlVerticalDisabled
+{
+}
+
+
+/******************************** ROOT ELEMENTS ***************************************************/
+.igdm_Windows7MenuGroupVerticalRoot
+{
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemVerticalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 30px 6px 12px;
+	color:#1E395B;
+	_border: 0px;
+}
+
+
+.igdm_Windows7MenuItemVerticalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_Windows7MenuItemVerticalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#1E395B;
+	text-decoration:none;
+}
+
+
+.igdm_Windows7MenuItemVerticalRootHover
+{
+	background-color: #e2effe;
+	background-repeat:repeat-x;
+	background-position:left top;
+	background-image: url("images/igdm_RootHover.png");
+	border-style:solid;
+	border-width:1px;
+	border-top-color:#BBCADB;
+	border-right-color:Transparent;
+	color:#1E395B;
+
+	_border: 0px;
+}
+
+.igdm_Windows7MenuItemVerticalRootActive
+{
+	background-color: #e7f1fe;
+	background-image:none;
+	border-style:solid;
+	border-width:1px;
+	border-top-color:#BBCADB;
+	border-right-color:Transparent;
+	
+	_border: 0px;
+}
+
+.igdm_Windows7MenuItemVerticalRootSelected
+{
+	background-color:#c2dcfd;
+	background-repeat:repeat-x;
+	background-position:left top;
+	background-image: url("images/igdm_RootSelected.png");
+	border-style:solid;
+	border-width:1px;
+	border-top-color:#BBCADB;
+	border-right-color:Transparent;
+}
+
+
+
+
+.igdm_Windows7MenuItemVerticalRootDisabled
+{
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_Windows7MenuGroupVertical
+{
+	background-color:#FAFAFA;
+	border:1px solid #A5B3C5;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:#1E395B;
+}
+
+.igdm_Windows7MenuGroupScrollingVertical
+{
+	background-color:#FAFAFA;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:#1E395B;
+}
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_Windows7MenuItemVertical
+{
+	background-attachment:scroll;
+	background-color: #FFFFFF none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	_border: 0px;
+	color:#000333;
+}
+
+
+.igdm_Windows7MenuItemVerticalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_Windows7MenuItemVerticalParent
+{
+}
+
+
+.igdm_Windows7MenuItemVerticalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemVerticalSelected
+{
+	background-color:#E9EFF6;
+	background-repeat:repeat-x;
+	background-position:notset notset ;
+	background-image: url(images/igdm_ItemHover.png);
+	font-weight:normal;
+	border-style:solid;
+	border-width:1px;
+	border-top-color:#BBCADB;
+	border-right-color:Transparent;
+	margin:0px;
+	_border: 0px;
+	color:#1E395B;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemVerticalActive
+{
+	background-color:#E9EFF6;
+	font-weight:normal;
+	border-style:solid;
+	border-width:1px;
+	border-top-color:#BBCADB;
+	border-right-color:Transparent;
+	margin:0px;
+	_border: 0px;
+	color:#1E395B;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemVerticalHover
+{
+	background-color:#E9EFF6;
+	background-repeat:repeat-x;
+	background-position:notset notset ;
+	background-image: url(images/igdm_ItemHover.png);
+	font-weight:normal;
+	border-style:solid;
+	border-width:1px;
+	border-top-color:#BBCADB;
+	border-right-color:Transparent;
+	margin:0px;
+	_border: 0px;
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemVerticalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_Windows7MenuItemVerticalSeparator
+{
+	background-color:Gainsboro;
+	border-style:none;
+	border-width:0px;
+	margin-top:0px;
+	padding:0px;
+	display: block;
+	height: 1px ;
+	height: 1px;
+	width: 100%;
+	margin: 0px auto;
+	position: absolute;
+	clear: both;
+}
+
+
+.igdm_Windows7MenuScrollContainerVertical
+{
+}
+
+
+.igdm_Windows7MenuScrollerRootTop
+{
+}
+
+
+.igdm_Windows7MenuScrollerRootBottom
+{
+}
+
+
+.igdm_Windows7MenuScrollerTop
+{
+}
+
+
+.igdm_Windows7MenuScrollerBottom
+{
+}
+
+
+/************************************************************************************************\
+
+********************** Horizontal / Suffixed with "Horizontal" *********************************
+
+\************************************************************************************************/
+.igdm_Windows7ControlHorizontal
+{
+	background-color:#F1F5FB;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border:solid 1px #AABFD6;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+.igdm_Windows7ControlHorizontalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_Windows7ControlHorizontalDisabled
+{
+}
+
+
+/************** End Main Control Definitions ********************/
+/******************************** ROOT ELEMENTS - Group and Item ***************************************/
+/** Definitions for Root elements should be always before definitions of subElements **/
+.igdm_Windows7MenuGroupHorizontalRoot
+{
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemHorizontalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 6px 6px 12px;
+	float: left;
+	_border: 0px;
+	_background: none;
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemHorizontalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	text-align:left;
+	vertical-align:middle;
+	float:left;
+}
+
+
+.igdm_Windows7MenuItemHorizontalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#1E395B;
+	text-decoration:none;
+}
+
+
+.igdm_Windows7MenuItemHorizontalRootHover
+{
+	background-color:#e2effe;
+	background-repeat:repeat-x;
+	background-position:left top;
+	background-image: url("images/igdm_RootHover.png");
+	border-top:solid 1px Transparent;
+	border-right:solid 1px #BBCADB;
+	border-bottom:solid 1px Transparent;
+	border-left:solid 1px #BBCADB;
+	color:#1E395B;
+
+	_border: 0px;
+}
+
+.igdm_Windows7MenuItemHorizontalRootActive
+{
+	background-color:#e7f1fe;
+	background-image: none;
+	border-top:solid 1px Transparent;
+	border-right:solid 1px #BBCADB;
+	border-bottom:solid 1px Transparent;
+	border-left:solid 1px #BBCADB;
+	color:#1E395B;
+	
+	_border: 0px;
+}
+
+.igdm_Windows7MenuItemHorizontalRootSelected
+{
+	background-color:#c2dcfd;
+	background-repeat:repeat-x;
+	background-position:left top;
+	background-image: url("images/igdm_RootSelected.png");
+	border-top:solid 1px Transparent;
+	border-right:solid 1px #BBCADB;
+	border-bottom:solid 1px Transparent;
+	border-left:solid 1px #BBCADB;
+	color:#1E395B;
+}
+
+
+
+.igdm_Windows7MenuItemHorizontalRootDisabled
+{
+	float: left;
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_Windows7MenuGroupHorizontal
+{
+	background-color:#FAFAFA;
+	border:1px solid #BBBBBB;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:#1E395B;
+}
+
+.igdm_Windows7MenuGroupScrollingHorizontal
+{
+	background-color:#FAFAFA;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:#1E395B;
+}
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_Windows7MenuItemHorizontal
+{
+	background-attachment:scroll;
+	background-color: #FFFFFF none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	_border: 0px;
+	color:#000333;
+}
+
+
+.igdm_Windows7MenuItemHorizontalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_Windows7MenuItemHorizontalParent
+{
+}
+
+
+.igdm_Windows7MenuItemHorizontalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemHorizontalSelected
+{
+	background-color:#E9EFF6;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_ItemHover.png);
+	font-weight:normal;
+	border:solid 1px #BBCADB;
+	margin:0px;
+	color:#1E395B;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemHorizontalActive
+{
+	background-color:#E9EFF6;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_ItemHover.png);
+	font-weight:normal;
+	border:solid 1px #BBCADB;
+	margin:0px;
+	color:#1E395B;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemHorizontalHover
+{
+	background-color:#E9EFF6;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_ItemHover.png);
+	font-weight:normal;
+	border-right-color:#BBCADB;
+	border-left-color:#BBCADB;
+	margin:0px;
+	_border: 0px;
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemHorizontalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_Windows7MenuItemHorizontalSeparator
+{
+	background-color:Gainsboro;
+	border-style:none;
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	display: block;
+	width: 1px ;
+	width: 1px;
+	height: 100%;
+}
+
+
+/* Scrolling container - DIV */
+.igdm_Windows7MenuScrollContainerHorizontal
+{
+}
+
+
+/* Left scrolling element for root level items Horizontal orientation - DIV */
+.igdm_Windows7MenuScrollerRootLeft
+{
+}
+
+
+/* Right scrolling element for root level items Horizontal orientation - DIV */
+.igdm_Windows7MenuScrollerRootRight
+{
+}
+
+
+/* Left scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_Windows7MenuScrollerLeft
+{
+}
+
+
+/* Right scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_Windows7MenuScrollerRight
+{
+}
+
+
+.igdm_Windows7MenuItemHorizontalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+ul.igdm_Windows7MenuGroupVerticalRoot li.igdm_Windows7MenuItemVerticalParent.igdm_Windows7MenuItemVerticalRoot
+{
+	_background: none;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemVerticalActive > a
+{
+	color:#1E395B;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemVerticalDisabled > a
+{
+	color:#CCCCCC;
+}
+
+
+.igdm_Windows7MenuItemVerticalRootActive > a
+{
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemVerticalRootHover > a
+{
+	color:#1E395B;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemVerticalSelected > a
+{
+	color:#1E395B;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemHorizontalActive > a
+{
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemHorizontalRootHover > a
+{
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemHorizontalRootActive > a
+{
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemVerticalActive.igdm_Windows7MenuItemVerticalParent
+{
+	background-color:#E9EFF6;
+	background-repeat:repeat-x;
+	background-position:right center ;
+	background-image: url(images/igdm_ItemHoverParent.png);
+	border:solid 1px Transparent;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemHorizontalDisabled > a
+{
+	color:#CCCCCC;
+}
+
+
+.igdm_Windows7MenuItemHorizontalSelected.igdm_Windows7MenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center right ;
+	border:solid 1px #BBCADB;
+}
+
+
+.igdm_Windows7MenuItemHorizontalRootSelected > a
+{
+	color:#1E395B;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemVerticalHover > a
+{
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemVerticalSelected.igdm_Windows7MenuItemVerticalParent
+{
+	background-color:#E9EFF6;
+	background-repeat:repeat-x;
+	background-position:notset notset ;
+	background-image: url(images/igdm_ItemHoverParent.png);
+	border:solid 1px Transparent;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemHorizontalSelected > a
+{
+	color:#1E395B;
+}
+
+
+.igdm_Windows7MenuItemHorizontalHover.igdm_Windows7MenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center top ;
+	border:solid 1px Transparent;
+}
+
+
+.igdm_Windows7MenuItemHorizontalActive.igdm_Windows7MenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center right ;
+	border:solid 1px #BBCADB;
+}
+
+
+/* List Item (Li) */
+.igdm_Windows7MenuItemHorizontalHover > a
+{
+	color:#1E395B;
+}
+
+
+/*ListItem that is parent of menu items not in Root*/
+/*********************************/
+/* Corrections due to BUG on IE6 */
+/*********************************/
+.igdm_Windows7MenuItemHorizontal.igdm_Windows7MenuItemHorizontalParent
+{
+	background-repeat:no-repeat;
+	background-position:center right ;
+}
+
+
+.igdm_Windows7MenuItemVerticalRootSelected > a
+{
+	color:#1E395B;
+}
+
+
+/*ListItem that is parent of menu items not in Root*/
+.igdm_Windows7MenuItemVertical.igdm_Windows7MenuItemVerticalParent
+{
+	background-repeat:no-repeat;
+	background-position:right center;
+	background-image: url(images/igwdm_SubMenuIndicator.gif);
+	_border: 0px;
+}
+
+
+.igdm_Windows7MenuItemVerticalHover.igdm_Windows7MenuItemVerticalParent
+{
+	background-color:#E9EFF6;
+	background-repeat:repeat-x;
+	background-position:right center ;
+	background-image: url(images/igdm_ItemHoverParent.png);
+	border-top:solid 1px #BBCADB;
+	border-right:solid 1px Transparent;
+	border-bottom:solid 1px Transparent;
+	border-left:solid 1px Transparent;
+}
+
+
+.igdm_Windows7MenuItemVerticalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+/*************************************** SCROLLING ROLES ************************************/
+
+.igdm_Windows7MenuScrollButton
+{
+    position:absolute;
+    background-color: #f1f5fb;
+    background-image:url("images/igwdm_scrollSprite.png");
+    background-position:center -57px;
+    background-repeat: repeat-x;
+    border:1px solid #aabfd6;
+    text-decoration: none;
+    padding:0px;
+    margin:0px;
+}
+
+.igdm_Windows7MenuScrollerTop
+{
+    height:10px;
+    width:100%;
+}
+    .igdm_Windows7MenuScrollerTop:hover, 
+    .igdm_Windows7MenuScrollerRight:active
+    {
+      background-position:center -42px;
+    }
+    
+.igdm_Windows7MenuScrollerBottom
+{
+    height:10px;
+    width:100%;
+}
+    .igdm_Windows7MenuScrollerBottom:hover,
+    .igdm_Windows7MenuScrollerRight:active
+    {
+      background-position:center -42px;
+    }
+
+.igdm_Windows7MenuScrollerLeft
+{
+    border-left:1px solid #aabfd6;
+    background-position:right -70px;
+    background-repeat:repeat-y;
+    
+    width:10px;
+    height:28px;
+    
+    display:block;
+}
+    .igdm_Windows7MenuScrollerLeft:hover, 
+    .igdm_Windows7MenuScrollerRight:active
+    {
+      background-position:left -70px;
+    }
+
+.igdm_Windows7MenuScrollerRight
+{
+
+    border-right:1px solid #aabfd6;
+    background-position:right -70px;
+    background-repeat:repeat-y;
+
+    width:10px;
+    height:28px;
+    
+    display:block;
+}
+    .igdm_Windows7MenuScrollerRight:hover, 
+    .igdm_Windows7MenuScrollerRight:active
+    {
+      background-position:left -70px;
+    }
+    
+.igdm_Windows7MenuScrollIcon
+{
+    cursor:pointer;
+    display:block;
+    background-repeat:no-repeat;
+    height:10px;
+    padding:0px;
+    margin:0px;
+    background-image:url("images/igwdm_scrollSprite.png");
+}
+
+.igdm_Windows7MenuScrollIconTop
+{
+    background-position:center -1px;
+    width:10px;
+    position:relative; 
+    left:50%;
+    margin-left:-5px;
+}
+
+.igdm_Windows7MenuScrollIconBottom
+{
+    background-position:center -25px;
+    width:10px;
+    position:relative; 
+    left:50%;
+    margin-left:-5px;
+}
+
+.igdm_Windows7MenuScrollIconLeft
+{
+    background-position:-15px -15px;
+    margin-top:-6px;
+    position:relative;
+    top:50%;
+}
+
+.igdm_Windows7MenuScrollIconRight
+{
+    background-position:-30px -15px;
+    margin-top:-6px;
+    position:relative;
+    top:50%;
+}
+
+.igdm_Windows7MenuScrollContainer
+{
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;	
+}
+
+.igdm_Windows7MenuScrollContainerVertical
+{
+    background-color:#FAFAFA;
+	border:1px solid #BBBBBB;
+	color:#1E395B;
+}
+
+.igdm_Windows7MenuScrollContainerHorizontal
+{
+    background-color:#FAFAFA;
+	border:1px solid #BBBBBB;
+	color:#1E395B;
+}
+
+.igdm_Windows7MenuScrollContainerRootVertical
+{
+    color:#1E395B;
+}
+
+.igdm_Windows7MenuScrollContainerRootHorizontal
+{
+    color:#1E395B;
+}
+/*************************************** END SCROLLING ROLES ********************************/

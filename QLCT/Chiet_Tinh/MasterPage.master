@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="NhanVien_NVMasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<%@ Register Assembly="Infragistics35.Web.v10.3, Version=10.3.20103.1013, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb"
+    Namespace="Infragistics.Web.UI" TagPrefix="ig" %>
+
+<%@ Register Src="~/Chiet_Tinh/Control/WUCMenuPage.ascx" TagName="WUCMenuPage" TagPrefix="WUCMenuPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Chương trình chiết tính</title> 
+    <link href="Style/DQStyle.css" rel="stylesheet" type="text/css" />   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ToolkitScriptManager ID="WebScriptManager1" runat="server" />
+        <table cellpadding="2" cellspacing="2" style="height:28px;  
+        background-color:#0b9fd3; width:100%; color: white; font-weight:bold">
+            <tr>
+                <td style="text-align:left; padding-left: 18px;">
+                    Chương trình quản lý chiết tính 2.6 - Công ty Điện lực Vĩnh Long
+                </td>
+                <td style="text-align:right; padding-right: 18px;">
+                    <a target="_blank" id="Link_HD" runat="server" style="text-decoration:none; color: white">Hướng dẫn sử dụng</a>
+                </td>
+            </tr>
+        </table>
+        <div id="DQBodyContainer">            
+            <div id="DQContentContainer">                                
+                <table cellpadding="2" cellspacing="2">
+                    <tr>
+                        <td style="width:200px; vertical-align: top">
+                            <div id="Menu_Main" runat="server"></div>
+                        </td>
+                        <td style="width:770px; vertical-align: top">
+                            <div style="padding-left: 3px">
+                                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">            
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>            
+        </div>
+    </form>
+</body>
+</html>

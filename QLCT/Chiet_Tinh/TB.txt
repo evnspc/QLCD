@@ -1,0 +1,16 @@
+<h1 style="color: red;">
+	Th&ocirc;ng b&aacute;o.</h1>
+<p>
+	<span style="font-size:14px;">- &Aacute;p dụng đơn gi&aacute; VTTB ng&agrave;nh điện th&aacute;ng <span style="color: rgb(255, 0, 0);">07/2014</span>(th&ocirc;ng b&aacute;o số: 3069/TB-PCVL&nbsp;ng&agrave;y 05/9/2014). <span style="color: rgb(255, 0, 0);"><em><em>Gi&aacute;</em> vật tư ng&agrave;nh điện <strong>kh&ocirc;ng</strong> thay đổi so với TB th&aacute;ng 6/2014</em></span>.</span></p>
+<p>
+	<strong><span style="font-size:14px;">- Lưu &yacute;: Đơn gi&aacute; vật tư lập chiết t&iacute;nh cho KH &aacute;p dụng trong chương tr&igrave;nh đơn gi&aacute; vật tư mới.</span></strong></p>
+<p>
+	<strong><span style="font-size:14px;">- 25/8 Đ&atilde; th&ecirc;m vật tư: ĐKĐT 3P 3 gi&aacute; PLC 50(100) 230V.</span></strong></p>
+<p>
+	<span style="font-size: 14px;">- Đ&atilde; cập nhật hướng dẫn sử dụng </span><span style="font-size: 14px; color: rgb(255, 0, 0);">ph&acirc;n hệ vật tư </span><span style="font-size: 14px;">(Donwload &quot;</span><span style="font-size: 14px; color: rgb(255, 0, 0);">Hướng dẫn sử dụng</span><span style="font-size: 14px;">&quot; ph&iacute;a tr&ecirc;n)1- </span><u style="font-size: 14px;">Li&ecirc;n hệ Ph&ograve;ng CNTT để cấp user</u><span style="font-size: 14px;">.</span></p>
+<p>
+	<span style="font-size:14px;">- Đ&atilde; bổ sung chức năng &ldquo;<span style="color: rgb(255, 0, 0);">Th&ecirc;m vật tư theo mẫu</span>&rdquo;. Tại Form lập chiết t&iacute;nh &ndash; chọn &ldquo;<span style="color: rgb(255, 0, 0);">Th&ecirc;m vật tư theo mẫu</span>&rdquo; để lấy nh&oacute;m vật tư thường d&ugrave;ng. Sau đ&oacute; c&oacute; thể chọn th&ecirc;m/bớt vật tư như b&igrave;nh thường.</span></p>
+<p>
+	<span style="font-size:14px;">C&aacute;c Anh/chị xem sử dụng v&agrave; nếu cần bổ sung/loại bỏ vật tư trong mẫu <span style="font-size:14px;">&ldquo;<span style="color: rgb(255, 0, 0);">Th&ecirc;m vật tư theo mẫu</span>&rdquo; </span>cho ph&ugrave; hợp, vui l&ograve;ng gọi 0702.2210226 gặp Học. Tr&acirc;n trọng.</span>/.</p>
+<p>
+	&nbsp;</p>

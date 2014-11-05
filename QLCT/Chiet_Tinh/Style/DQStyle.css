@@ -1,0 +1,158 @@
+﻿
+/* Phan MasterPage  */
+body 
+{
+    text-align:center;
+    font-family:Arial;
+    font-size:12px;
+    margin: 1px 0 3px 0;
+    background-color:white;
+}
+
+#DQTopBG
+{
+   width:982px;
+   margin:auto;
+   background: url(Img/t_bg1.png);
+   height:7px;
+}
+
+#DQBodyContainer
+{
+   width:970px;
+   margin:auto;
+   padding: 0 6px 0 6px;
+}
+
+#DQBottomBG
+{
+   width:982px;
+   margin:auto;
+   background: url(Img/b_bg1.png);
+   height:7px;
+}
+
+#DQContentContainer
+{
+    padding-top: 3px;
+    padding-bottom: 3px;       
+}
+
+.DQ_Box_Top_Left
+{
+    float:left;    
+    width:5px;
+    height:32px;
+    background-color:#0b9fd3;
+}
+
+.DQ_Box_Top_Center
+{
+    background-color:#0b9fd3;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 24px;
+	padding-top: 8px;
+	padding-left: 4px;	
+	font: bold 14px Arial;
+	color:White;	
+}
+
+.DQ_Box_Top_Right
+{
+    background-color:#0b9fd3;
+    float:right;
+    width:5px;
+    height:32px;
+}
+.DQ_Box_Middle
+{   
+    padding: 10px 10px 1px 10px;
+	text-align:left;    	
+	border-left: solid 1px silver;
+	border-right: solid 1px silver;
+}
+
+.DQ_Box_Bottom_Left
+{
+    float:left;
+    background-color: Silver;    
+    height:1px;
+    width: 5px;
+}
+
+.DQ_Box_Bottom_Center
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: Silver;
+	height:1px;
+}
+
+.DQ_Box_Bottom_Right
+{
+    float:right;
+    background-color: Silver;
+    height:1px;
+    width: 5px;
+}
+
+#DQFooterContainer
+{
+    width:100%;
+    text-align:center;    
+}
+
+/* phan dung chung */
+
+.DQLink
+{  
+    text-decoration:none;
+    color:#005FEC;
+    font-size:12px;
+    font-weight:bold;
+    font-family:Arial;    
+}
+
+.DQLink:Hover
+{  
+    color:#993399;
+    text-decoration:underline;
+}
+
+/*  Menu Page   */
+
+.DQ_Menu_Link
+{
+    text-decoration: none;    
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Tahoma;
+    color:Blue;
+}
+
+.DQ_Menu_Link:Hover
+{
+    text-decoration:underline;
+}
+
+.DQ_Menu_BG
+{
+    background-color:#049fcf;
+    text-transform:uppercase;
+    font-family:Tahoma;    
+}
+
+.DQ_Menu_SPC
+{
+    background-image:url(Img/space-mn.png);
+    width:1px;        
+}
+
+.DQ_Menu_IT
+{
+    text-align:center;
+    width:205px;
+    vertical-align:top;
+    padding-top: 8px;
+}
